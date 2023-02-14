@@ -15,7 +15,13 @@ This analysis was conducted to review Amazon reviews written by paid Amazon Vine
 
 - Five star paid reviews make up 43% of the total paid reviews and unpaid fivestar reviews make up 59% of total unpaid reviews
 ## Summary
-For this dataset there is not biased towards paid reviews.  When comparing unpaid vs paid reviews a huge majority or unpaid reviews had high ratings while only a small fraction had paid reviews.  
+For this dataset there is not biased towards paid reviews.  When comparing unpaid vs paid reviews a huge majority of unpaid reviews had high ratings while only a small fraction had paid reviews.  
+
+![image](https://user-images.githubusercontent.com/109490755/218820690-8f02bddc-9b8b-42a9-a99b-dc081eb8b020.png)
+
+An additional analysis we can conduct is breakout each product and see which products might have a biased or unbiased reviews.
 
 ### Resources
  - Dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_PC_v1_00.tsv.gz
+ - Amazon_Reviews_ETl - Pulls data from AWS S34 bucket and imports into PostGres
+ - Bias_of_Vine_Reviews - Reviews the AWS Data and determine if there is Bias
